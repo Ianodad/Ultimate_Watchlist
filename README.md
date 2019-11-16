@@ -1,8 +1,5 @@
 <h1 align="center">
   <br><a href="https://imgbb.com/"><img src="https://i.ibb.co/fppDbMx/Webp-net-resizeimage.jpg" alt="Webp-net-resizeimage" border="0"></a></a>
-  <br>
-  <p align="center"><a href="https://ibb.co/nrNNrwW"><img src="https://i.ibb.co/PxvvxrS/ff2b00.png" alt="ff2b00" border="0"></a></p>
-  <br>
 </h1>
 
 # WATCHLIST
