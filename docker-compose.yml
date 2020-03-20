@@ -10,7 +10,7 @@ services:
   frontend:
     build: ./Client/
     ports:
-      - "3000:3000"
+      - "3000:80"
     volumes:
       - ./ultimate_watchlist_frontend:/usr/src/app
     depends_on:
