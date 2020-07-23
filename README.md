@@ -131,8 +131,10 @@ export function postComment(movieId, comment, username) {
 }
 ```
 
-
-
+## Run with Docker 
+```console
+docker-compose up --build
+```
 ## Frontend State
 
 Main state is found in the product.jsx
