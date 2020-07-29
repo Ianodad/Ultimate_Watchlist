@@ -150,6 +150,8 @@ cd Server
 npm install
 nodemon start
 ```
+Open in browser
+http://localhost:3000/
 
 ### Run with Docker
 ```console
@@ -162,10 +164,15 @@ cd Server
 docker build -t watchlist_server .
 ```
 
+Open in browser
+http://localhost:3000/
+
 ### Run with Docker-compose 
 ```console
 docker-compose up --build
 ```
+Open in browser
+http://localhost:3100/
 
 
 ## After Installation 
