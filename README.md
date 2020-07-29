@@ -138,6 +138,7 @@ state = { movies: [] };
 ## Installation
 
 Inside client and server folder
+
 ```bash
 cd Client
 npm install
@@ -150,7 +151,6 @@ npm install
 nodemon start
 ```
 
-```
 ### Run with Docker
 ```console
 cd Client
