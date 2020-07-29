@@ -129,30 +129,48 @@ export function postComment(movieId, comment, username) {
 		username
 	});
 }
-```
 
-## Run with Docker 
-```console
-docker-compose up --build
-```
-## Frontend State
-
+### Frontend State
 Main state is found in the product.jsx
 ```js
 state = { movies: [] };
-
 ```
-
 ## Installation
 
 Inside client and server folder
 ```bash
+cd Client
 npm install
+npm start
 ```
+
+```bash
+cd Server
+npm install
+nodemon start
+```
+
+```
+### Run with Docker
+```console
+cd Client
+docker build -t watchlist_client .
+```
+
+```console
+cd Server
+docker build -t watchlist_server .
+```
+
+### Run with Docker-compose 
+```console
+docker-compose up --build
+```
+
 
 ## After Installation 
 
-Insde the config folder change setting
+Inside the config folder change setting
 
 add a privatekey for jwt 
 and your Moviedb Api Key https://www.themoviedb.org/documentation/api

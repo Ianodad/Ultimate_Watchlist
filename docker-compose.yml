@@ -1,5 +1,12 @@
 version: "3.7"
 services:
+  nginx:
+    restart: always
+    build:
+      dockerfile: Dockerfile.dev
+      context: ./nginx
+    ports:
+      - "3050:80"
   backend:
     build:
       context: ./Server
@@ -18,5 +25,5 @@ services:
     volumes:
       - /app/node_modules
       - ./Client:/app
-    depends_on:
-      - backend
+    # depends_on:
+    #   - nginx
